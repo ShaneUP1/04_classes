@@ -24,12 +24,6 @@ module.exports = {
     Stack
 }
 
-const newStack = new Stack();
-newStack.push("[");
-console.log(newStack.peek());
-newStack.push("apple");
-console.log(newStack.peek());
-newStack.pop("apple");
-console.log(newStack.peek());
+
 
 
